@@ -27,14 +27,14 @@
       <div class="collapse navbar-collapse" id="navbarsExampleDefault">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="https://getbootstrap.com/docs/4.0/examples/jumbotron/#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="menu_usuario.html">Home</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Finanças</a>
             <div class="dropdown-menu" aria-labelledby="dropdown01">
-              <a class="dropdown-item" href="financeirocad.html">Inserir Despesa</a>
+              <a class="dropdown-item" href="#">Inserir Despesa</a>
               <a class="dropdown-item" href="#">Ver Relatório</a>
-              <a class="dropdown-item" href="#">Excluir Despesa</a>
+              <a class="dropdown-item" href="#">Exluir Despesa</a>
             </div>
           </li>
           <li class="nav-item dropdown">
@@ -47,10 +47,10 @@
             </div>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Alunos</a>
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Alunos<span class="sr-only">(atual)</span></a>
             <div class="dropdown-menu" aria-labelledby="dropdown01">
               <a class="dropdown-item" href="#">Selecionar</a>
-			<a class="dropdown-item" href="alunocad.html">Cadastrar</a>
+			<a class="dropdown-item" href="#">Cadastrar</a>
 			<a class="dropdown-item" href="#">Editar</a>
 			<a class="dropdown-item" href="#">Excluir</a>
             </div>
@@ -59,7 +59,7 @@
             <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Professores</a>
             <div class="dropdown-menu" aria-labelledby="dropdown01">
               <a class="dropdown-item" href="#">Selecionar</a>
-			<a class="dropdown-item" href="professorcad.html">Cadastrar</a>
+			<a class="dropdown-item" href="#">Cadastrar</a>
 			<a class="dropdown-item" href="#">Editar</a>
 			<a class="dropdown-item" href="#">Excluir</a>
             </div>
@@ -80,38 +80,31 @@
 
     <main role="main">
 
-      <!-- Main jumbotron for a primary marketing message or call to action -->
-      <div class="jumbotron">
+<form action="#">
         <div class="container">
-          <h1 class="display-3">Olá, Robson!</h1>
-          <p>Esse poderá ser o menu do usuário após logar.</p>
-          <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more »</a></p>
-        </div>
-      </div>
+                <div style="width: 500px;">
+                    <div class="form-group form-group-sm">
+                        <label for="firstname" class="control-label">Nome</label>
+                        <input type="text" class="form-control" id="firstname" placeholder="Nome">
+                    </div>
 
-      <div class="container">
-        <!-- Example row of columns -->
+                    <div class="form-group">
+                        <label for="lastname" class="control-label">CPF</label>
+                        <input type="text" class="form-control" id="lastname" placeholder="CPF">
+                    </div>
+                    <div class="form-group">
+                        <label for="lastname" class="control-label">Data</label>
+                        <input type="text" class="form-control" id="lastname" placeholder="Data">
+                    </div>
+                </div>
+        
         <div class="row">
-          <div class="col-md-4">
-            <h2>Treinos</h2>
-            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-            <p><a class="btn btn-secondary" href="https://getbootstrap.com/docs/4.0/examples/jumbotron/#" role="button">View details »</a></p>
-          </div>
-          <div class="col-md-4">
-            <h2>Pagamentos</h2>
-            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-            <p><a class="btn btn-secondary" href="https://getbootstrap.com/docs/4.0/examples/jumbotron/#" role="button">View details »</a></p>
-          </div>
-          <div class="col-md-4">
-            <h2>Dados cadastrais</h2>
-            <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-            <p><a class="btn btn-secondary" href="https://getbootstrap.com/docs/4.0/examples/jumbotron/#" role="button">View details »</a></p>
-          </div>
+             <div class="col-xs-3">
+                    <button type="submit" class="btn btn-default">Cadastrar</button>
+                </div>
         </div>
-
-        <hr>
-
-      </div> <!-- /container -->
+        </div>
+    </form>
 
     </main>
 
